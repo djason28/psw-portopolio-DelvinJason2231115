@@ -1,0 +1,56 @@
+
+footer {
+    background-color: #143E44;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer .socialmedia {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 15rem;
+    vertical-align: middle;
+}
+
+footer .followus {
+    vertical-align: middle;
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+}
+
+footer .garislurus {
+    font-size: 30px;
+    color: white;
+    padding: 0 3rem;
+}
+
+footer .socials {
+    padding: 1rem 0;
+    vertical-align: middle;
+}
+
+footer .socials a {
+    color: white ;
+    margin: 1rem;
+}
+
+footer .credit {
+    font-size: 1rem;
+    color: #ffffff;
+}
+footer .credit a {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.socials{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 25px;
+    column-gap: 25px;
+    filter: invert(100%) sepia(0%) saturate(7172%) hue-rotate(358deg) brightness(122%) contrast(101%);
+}

@@ -1,0 +1,13 @@
+
+/*<---portofoplio--->*/
+th{
+    color: white;
+}
+
+td{
+    color: white;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: aqua;
+  };

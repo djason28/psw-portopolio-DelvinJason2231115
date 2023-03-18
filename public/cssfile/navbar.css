@@ -1,0 +1,77 @@
+
+
+.sidebar {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+    left: 0;
+    background-color: #143E44;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: white;
+  }
+
+
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    background-color: #143E44;
+    opacity: 1;
+  }
+
+  .sidebar a:hover {
+    color: #228cca;
+  }
+
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #555555;
+    color: #143E44;
+    padding: 10px 15px;
+    border: none;
+
+  }
+
+  .openbtn:hover {
+    background-color: #228cca;
+  }
+
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+
+  }
+
+  #navbar{
+        height: 80px; /* adjust the height as needed */
+        position: fixed;
+        z-index: 10;
+        width: 100%;
+        margin: 0 auto;
+      }
+      .navbar-toggler {
+        font-size: 1.5rem;
+        line-height: 1;
+        padding: 0.25rem 0.5rem;
+      }
+
+      .profile {
+        font-size: 1.5rem;
+        margin-right: 1rem;
+      }

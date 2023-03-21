@@ -4,8 +4,7 @@
                     <div class="section text-center">
                             <h2>Portfolio</h2>
                             <hr>
-                            <p>Berikut foto dan hasil karya yang telah disiapkan untuk di gunakan sesuai dengan keperluan yang anda
-                            inginkan.</p>
+                            <p>Here is the result of my web project</p>
                     </div>
                     <hr>
             <div class="row">
